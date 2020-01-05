@@ -89,9 +89,6 @@ a {
     justify-content: space-between;
     
 }
-
-
-
 .title {
     font-weight: 500;
     font-size: 3rem;
@@ -116,4 +113,13 @@ a {
 
     text-decoration: none;
     font-size: 1.2rem;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #2180d8;
+}
+.btn:focus {
+    background-color: #2796ff;
 }
